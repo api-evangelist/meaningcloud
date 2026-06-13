@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.meaningcloud.com",
+  "name": "MeaningCloud",
+  "url": "https://www.meaningcloud.com",
+  "description": "MeaningCloud is a cloud-based text analytics and natural language processing REST API platform providing sentiment analysis, topic extraction, text classification, language detection, document clustering, corporate reputation analysis, document structure extraction, and deep semantic analysis across multiple languages.",
+  "sameAs": [
+    "https://github.com/MeaningCloud",
+    "https://www.linkedin.com/company/meaningcloud",
+    "https://x.com/meaningcloud"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "MeaningCloud APIs",
+    "itemListElement": [
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Sentiment Analysis API",
+        "description": "Performs detailed multilingual sentiment analysis of texts from different sources, returning polarity, agreement, subjectivity, irony, and confidence scores at document, sentence, and segment levels.",
+        "url": "https://www.meaningcloud.com/developer/sentiment-analysis",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Topics Extraction API",
+        "description": "Identifies and extracts named entities (people, places, organizations) and abstract concepts within text, providing relevance scores and ontology types.",
+        "url": "https://www.meaningcloud.com/developer/topics-extraction",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Text Classification API",
+        "description": "Assigns one or more classes to a text according to content using predefined or custom taxonomy models, supporting multilingual classification with configurable hierarchy expansion.",
+        "url": "https://www.meaningcloud.com/developer/text-classification",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Language Identification API",
+        "description": "Detects the language in which a given text is written, returning ISO-639 codes and confidence scores for multiple candidate languages.",
+        "url": "https://www.meaningcloud.com/developer/language-identification",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Deep Categorization API",
+        "description": "Premium API that performs deep semantic text classification using advanced rule-based and machine learning models, supporting polarity and verbose output modes.",
+        "url": "https://www.meaningcloud.com/developer/deep-categorization",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Text Clustering API",
+        "description": "Groups a set of texts by thematic similarity, returning clusters with titles, relevance scores, and document lists. Supports multiple clustering modes and custom stopword lists.",
+        "url": "https://www.meaningcloud.com/developer/text-clustering",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Corporate Reputation API",
+        "description": "Semantically tags content for corporate reputation analysis, identifying entities and assigning reputational categories with polarity scores to support brand monitoring use cases.",
+        "url": "https://www.meaningcloud.com/developer/corporate-reputation",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Summarization API",
+        "description": "Automatically extracts a summary from a document by selecting the most relevant sentences, with configurable sentence count output.",
+        "url": "https://www.meaningcloud.com/developer/summarization",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "applicationCategory": "WebAPI",
+        "name": "Document Structure API",
+        "description": "Extracts structural sections from markup documents including title, headings, abstract, and email fields such as from, to, cc, and subject.",
+        "url": "https://www.meaningcloud.com/developer/document-structure",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.meaningcloud.com/products/pricing"
+        }
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Text Analytics",
+    "Natural Language Processing",
+    "Sentiment Analysis",
+    "Topic Extraction",
+    "Text Classification",
+    "Language Detection",
+    "Document Clustering",
+    "Semantic Analysis",
+    "Named Entity Recognition",
+    "Corporate Reputation Analysis"
+  ]
+}
