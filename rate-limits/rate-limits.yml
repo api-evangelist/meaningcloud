@@ -1,0 +1,65 @@
+rateLimits:
+  - name: API Calls Per Connection (Microsoft Connector)
+    description: Throttling limit applied to the MeaningCloud Microsoft Power Platform
+      connector. Limits the number of API calls per connection within a renewal window.
+    limit: 100
+    unit: calls
+    period: 60 seconds
+    scope: connection
+    applies_to:
+      - Microsoft Power Automate
+      - Microsoft Logic Apps
+      - Microsoft Power Apps
+      - Copilot Studio
+
+  - name: Monthly Credits - Free Plan
+    description: Total credits available per month under the Free plan. One credit
+      corresponds to processing up to 500 words. Requests exceeding the limit will
+      be rejected until the next billing period.
+    limit: 20000
+    unit: credits
+    period: monthly
+    scope: account
+    applies_to:
+      - Free
+
+  - name: Monthly Credits - Start-Up Plan
+    description: Total credits available per month under the Start-Up paid plan.
+      Flexible overage is available and billed at the end of the period.
+    limit: 120000
+    unit: credits
+    period: monthly
+    scope: account
+    applies_to:
+      - Start-Up
+
+  - name: Monthly Credits - Professional Plan
+    description: Total credits available per month under the Professional paid plan.
+      Flexible overage is available and billed at the end of the period.
+    limit: 700000
+    unit: credits
+    period: monthly
+    scope: account
+    applies_to:
+      - Professional
+
+  - name: Monthly Credits - Business Plan
+    description: Total credits available per month under the Business paid plan.
+      Flexible overage is available and billed at the end of the period.
+    limit: 4200000
+    unit: credits
+    period: monthly
+    scope: account
+    applies_to:
+      - Business
+
+  - name: Credit Unit Definition
+    description: One credit is consumed for each 500-word bucket of text processed
+      by any MeaningCloud API. Remaining credits are returned in every API response
+      via the status.remaining_credits field.
+    limit: 500
+    unit: words-per-credit
+    period: per-request
+    scope: global
+    applies_to:
+      - All Plans

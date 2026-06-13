@@ -1,0 +1,71 @@
+finops:
+  currency: USD
+  billingModel: credit-based
+  creditDefinition:
+    description: One credit corresponds to processing a bucket of up to 500 words
+      with any MeaningCloud API. Credits are deducted per request based on word count
+      rounded up to the nearest 500-word bucket.
+    wordsPerCredit: 500
+
+  plans:
+    - name: Free
+      monthlyPrice: 0.00
+      includedCredits: 20000
+      overageCredits: false
+      pricePerExtraCredit: null
+      notes: No credit card required. Suitable for evaluation and small personal projects.
+
+    - name: Start-Up
+      monthlyPrice: 99.00
+      includedCredits: 120000
+      overageCredits: true
+      pricePerExtraCredit: null
+      notes: Overage consumption is charged at the end of the billing period. Contact
+        MeaningCloud for per-credit overage rates.
+
+    - name: Professional
+      monthlyPrice: 399.00
+      includedCredits: 700000
+      overageCredits: true
+      pricePerExtraCredit: null
+      notes: Overage consumption is charged at the end of the billing period. Includes
+        access to premium APIs such as Deep Categorization.
+
+    - name: Business
+      monthlyPrice: 999.00
+      includedCredits: 4200000
+      overageCredits: true
+      pricePerExtraCredit: null
+      notes: Overage consumption is charged at the end of the billing period. Includes
+        priority support and all premium APIs.
+
+    - name: Enterprise
+      monthlyPrice: null
+      includedCredits: null
+      overageCredits: true
+      pricePerExtraCredit: null
+      notes: Custom pricing negotiated directly with MeaningCloud. Supports on-premises
+        deployment and custom SLA agreements.
+
+  costVisibility:
+    - feature: Remaining Credits in Response
+      description: Every API response includes the status.remaining_credits field
+        showing how many credits remain for the current billing period, enabling
+        real-time consumption monitoring.
+      field: status.remaining_credits
+
+    - feature: Credits Consumed Per Request
+      description: Every API response includes the status.credits field showing
+        how many credits were consumed by the specific request.
+      field: status.credits
+
+  costOptimizationTips:
+    - tip: Batch short texts together to maximize the 500-word credit bucket utilization.
+    - tip: Use the Language Identification API only when the input language is unknown
+        to avoid unnecessary credit consumption.
+    - tip: Monitor status.remaining_credits in responses to track usage and avoid
+        unexpected overages on paid plans.
+    - tip: Use the Free plan (20,000 credits/month) for development and testing before
+        committing to a paid plan.
+    - tip: The Summarization API can reduce downstream processing costs by condensing
+        long documents before feeding them to other APIs.

@@ -1,0 +1,109 @@
+plans:
+  - name: Free
+    description: Free plan for individuals and small projects to evaluate MeaningCloud
+      APIs. Includes up to 20,000 credits per month with no charge. A credit corresponds
+      to a bucket of 500 words processed.
+    url: https://www.meaningcloud.com/products/pricing
+    spec: ''
+    price: 0.00
+    currency: USD
+    unit: monthly
+    features:
+      - 20,000 credits per month
+      - Access to all standard APIs
+      - API key authentication
+      - JSON response format
+    pricingModel: free
+    rateLimits:
+      - name: Monthly Credits
+        limit: 20000
+        unit: credits
+        period: monthly
+
+  - name: Start-Up
+    description: Entry-level paid plan suitable for startups and small businesses
+      requiring moderate text analytics throughput. Credits are consumed at a rate
+      of one credit per 500 words processed.
+    url: https://www.meaningcloud.com/products/pricing
+    spec: ''
+    price: 99.00
+    currency: USD
+    unit: monthly
+    features:
+      - 120,000 credits per month
+      - Access to all standard APIs
+      - API key authentication
+      - JSON response format
+      - Extra usage billed at end of period
+    pricingModel: flat-rate
+    rateLimits:
+      - name: Monthly Credits
+        limit: 120000
+        unit: credits
+        period: monthly
+
+  - name: Professional
+    description: Mid-tier plan for growing businesses and development teams with
+      higher text analytics volume requirements. Includes flexible overage billing.
+    url: https://www.meaningcloud.com/products/pricing
+    spec: ''
+    price: 399.00
+    currency: USD
+    unit: monthly
+    features:
+      - 700,000 credits per month
+      - Access to all standard APIs including Deep Categorization
+      - API key authentication
+      - JSON response format
+      - Extra usage billed at end of period
+    pricingModel: flat-rate
+    rateLimits:
+      - name: Monthly Credits
+        limit: 700000
+        unit: credits
+        period: monthly
+
+  - name: Business
+    description: High-volume plan for established businesses and enterprises requiring
+      large-scale text analytics processing. Supports flexible overage consumption.
+    url: https://www.meaningcloud.com/products/pricing
+    spec: ''
+    price: 999.00
+    currency: USD
+    unit: monthly
+    features:
+      - 4,200,000 credits per month
+      - Access to all APIs including premium Deep Categorization
+      - API key authentication
+      - JSON response format
+      - Extra usage billed at end of period
+      - Priority support
+    pricingModel: flat-rate
+    rateLimits:
+      - name: Monthly Credits
+        limit: 4200000
+        unit: credits
+        period: monthly
+
+  - name: Enterprise
+    description: Custom enterprise plan for organizations with very large-scale NLP
+      requirements, on-premises deployment needs, or custom SLA requirements. Pricing
+      is negotiated directly with MeaningCloud.
+    url: https://www.meaningcloud.com/products/pricing
+    spec: ''
+    price: 0.00
+    currency: USD
+    unit: monthly
+    features:
+      - Custom credit volume
+      - On-premises deployment option
+      - Access to all APIs including premium
+      - Custom SLA
+      - Dedicated support
+      - Custom integrations
+    pricingModel: custom
+    rateLimits:
+      - name: Monthly Credits
+        limit: 0
+        unit: credits
+        period: monthly
