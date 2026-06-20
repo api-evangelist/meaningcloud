@@ -4,7 +4,7 @@ description: MeaningCloud is a cloud-based text analytics and natural language p
   REST API platform providing sentiment analysis, topic extraction, text classification,
   language detection, document clustering, corporate reputation analysis, document
   structure extraction, and deep semantic analysis across multiple languages.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/meaningcloud/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -24,7 +24,7 @@ apis:
     description: Performs detailed multilingual sentiment analysis of texts from different
       sources, returning polarity, agreement, subjectivity, irony, and confidence
       scores at document, sentence, and segment levels.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/sentiment-analysis
     baseURL: https://api.meaningcloud.com
     tags:
@@ -38,7 +38,7 @@ apis:
     name: Topics Extraction API
     description: Identifies and extracts named entities (people, places, organizations)
       and abstract concepts within text, providing relevance scores and ontology types.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/topics-extraction
     baseURL: https://api.meaningcloud.com
     tags:
@@ -53,7 +53,7 @@ apis:
     description: Assigns one or more classes to a text according to content using
       predefined or custom taxonomy models, supporting multilingual classification
       with configurable hierarchy expansion.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/text-classification
     baseURL: https://api.meaningcloud.com
     tags:
@@ -67,7 +67,7 @@ apis:
     name: Language Identification API
     description: Detects the language in which a given text is written, returning
       ISO-639 codes and confidence scores for multiple candidate languages.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/language-identification
     baseURL: https://api.meaningcloud.com
     tags:
@@ -81,7 +81,7 @@ apis:
     description: Premium API that performs deep semantic text classification using
       advanced rule-based and machine learning models, supporting polarity and verbose
       output modes.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/deep-categorization
     baseURL: https://api.meaningcloud.com
     tags:
@@ -96,7 +96,7 @@ apis:
     description: Groups a set of texts by thematic similarity, returning clusters
       with titles, relevance scores, and document lists. Supports multiple clustering
       modes and custom stopword lists.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/text-clustering
     baseURL: https://api.meaningcloud.com
     tags:
@@ -111,7 +111,7 @@ apis:
     description: Semantically tags content for corporate reputation analysis, identifying
       entities and assigning reputational categories with polarity scores to support
       brand monitoring use cases.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/corporate-reputation
     baseURL: https://api.meaningcloud.com
     tags:
@@ -125,7 +125,7 @@ apis:
     name: Summarization API
     description: Automatically extracts a summary from a document by selecting the
       most relevant sentences, with configurable sentence count output.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/summarization
     baseURL: https://api.meaningcloud.com
     tags:
@@ -139,7 +139,7 @@ apis:
     name: Document Structure API
     description: Extracts structural sections from markup documents including title,
       headings, abstract, and email fields such as from, to, cc, and subject.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.meaningcloud.com/developer/document-structure
     baseURL: https://api.meaningcloud.com
     tags:
