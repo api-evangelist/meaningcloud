@@ -4,6 +4,17 @@ description: MeaningCloud is a cloud-based text analytics and natural language p
   REST API platform providing sentiment analysis, topic extraction, text classification,
   language detection, document clustering, corporate reputation analysis, document
   structure extraction, and deep semantic analysis across multiple languages.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
