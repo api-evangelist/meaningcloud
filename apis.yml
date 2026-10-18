@@ -39,6 +39,14 @@ tags:
   - Topic Extraction
   - Text Classification
   - Language Detection
+  - Semantic Analysis
+tags_raw:
+  - Text Analytics
+  - Natural Language Processing
+  - Sentiment Analysis
+  - Topic Extraction
+  - Text Classification
+  - Language Detection
   - NLP
   - Semantic Analysis
 apis:
@@ -51,6 +59,10 @@ apis:
     humanURL: https://www.meaningcloud.com/developer/sentiment-analysis
     baseURL: https://api.meaningcloud.com
     tags:
+      - Sentiment Analysis
+      - Natural Language Processing
+      - Text Analytics
+    tags_raw:
       - Sentiment Analysis
       - NLP
       - Text Analytics
@@ -67,6 +79,10 @@ apis:
     tags:
       - Topic Extraction
       - Named Entity Recognition
+      - Natural Language Processing
+    tags_raw:
+      - Topic Extraction
+      - Named Entity Recognition
       - NLP
     properties:
       - type: Documentation
@@ -80,6 +96,10 @@ apis:
     humanURL: https://www.meaningcloud.com/developer/text-classification
     baseURL: https://api.meaningcloud.com
     tags:
+      - Text Classification
+      - Natural Language Processing
+      - Taxonomy
+    tags_raw:
       - Text Classification
       - NLP
       - Taxonomy
@@ -95,6 +115,9 @@ apis:
     baseURL: https://api.meaningcloud.com
     tags:
       - Language Detection
+      - Natural Language Processing
+    tags_raw:
+      - Language Detection
       - NLP
     properties:
       - type: Documentation
@@ -108,6 +131,10 @@ apis:
     humanURL: https://www.meaningcloud.com/developer/deep-categorization
     baseURL: https://api.meaningcloud.com
     tags:
+      - Deep Categorization
+      - Semantic Analysis
+      - Natural Language Processing
+    tags_raw:
       - Deep Categorization
       - Semantic Analysis
       - NLP
@@ -125,6 +152,10 @@ apis:
     tags:
       - Text Clustering
       - Document Grouping
+      - Natural Language Processing
+    tags_raw:
+      - Text Clustering
+      - Document Grouping
       - NLP
     properties:
       - type: Documentation
@@ -138,6 +169,10 @@ apis:
     humanURL: https://www.meaningcloud.com/developer/corporate-reputation
     baseURL: https://api.meaningcloud.com
     tags:
+      - Corporate Reputation
+      - Brand Monitoring
+      - Natural Language Processing
+    tags_raw:
       - Corporate Reputation
       - Brand Monitoring
       - NLP
@@ -154,6 +189,10 @@ apis:
     tags:
       - Summarization
       - Text Analytics
+      - Natural Language Processing
+    tags_raw:
+      - Summarization
+      - Text Analytics
       - NLP
     properties:
       - type: Documentation
@@ -166,6 +205,10 @@ apis:
     humanURL: https://www.meaningcloud.com/developer/document-structure
     baseURL: https://api.meaningcloud.com
     tags:
+      - Document Structure
+      - Text Parsing
+      - Natural Language Processing
+    tags_raw:
       - Document Structure
       - Text Parsing
       - NLP
