@@ -66,41 +66,111 @@
 
 MeaningCloud is a cloud-based text analytics and natural language processing REST API platform providing sentiment analysis, topic extraction, text classification, language detection, document clustering, corporate reputation analysis, document structure extraction, and deep semantic analysis across multiple languages.
 
-Originally founded as Daedalus in 1998 as an AI research spinoff from Madrid's Technical University, the company rebranded as MeaningCloud in 2015. Reddit acquired MeaningCloud in June 2022.
+**Areas:** Text Analytics · Natural Language Processing · Sentiment Analysis · Topic Extraction · Text Classification · Language Detection · Semantic Analysis
 
-## APIs
+## MeaningCloud on APIs.io
 
-- **Sentiment Analysis API** - Multilingual sentiment analysis with polarity, agreement, subjectivity, and irony detection
-- **Topics Extraction API** - Named entity and concept extraction with ontology typing
-- **Text Classification API** - Taxonomy-based document classification with configurable hierarchy
-- **Language Identification API** - Language detection returning ISO-639 codes and confidence scores
-- **Deep Categorization API** - Premium semantic classification using advanced rule-based and ML models
-- **Text Clustering API** - Automatic document grouping by thematic similarity
-- **Corporate Reputation API** - Brand and reputation analysis with entity-level polarity scoring
-- **Summarization API** - Extractive document summarization with configurable sentence count
-- **Document Structure API** - Section extraction from markup documents and emails
+Everything profiled for MeaningCloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/meaningcloud/](https://apis.io/providers/meaningcloud/)** — or go straight to one of the APIs or properties below.
 
-## Authentication
+### APIs (9)
 
-All APIs use API key authentication. A free license key with 20,000 credits/month is provided upon registration.
+- [Sentiment Analysis API](https://apis.io/apis/meaningcloud/sentiment-analysis-api/) — Performs detailed multilingual sentiment analysis of texts from different sources, returning polarity, agreement, subjectivity, irony, and confidence scores…
+- [Topics Extraction API](https://apis.io/apis/meaningcloud/topics-extraction-api/) — Identifies and extracts named entities (people, places, organizations) and abstract concepts within text, providing relevance scores and ontology types.
+- [Text Classification API](https://apis.io/apis/meaningcloud/text-classification-api/) — Assigns one or more classes to a text according to content using predefined or custom taxonomy models, supporting multilingual classification with…
+- [Language Identification API](https://apis.io/apis/meaningcloud/language-identification-api/) — Detects the language in which a given text is written, returning ISO-639 codes and confidence scores for multiple candidate languages.
+- [Deep Categorization API](https://apis.io/apis/meaningcloud/deep-categorization-api/) — Premium API that performs deep semantic text classification using advanced rule-based and machine learning models, supporting polarity and verbose output modes.
+- [Text Clustering API](https://apis.io/apis/meaningcloud/text-clustering-api/) — Groups a set of texts by thematic similarity, returning clusters with titles, relevance scores, and document lists. Supports multiple clustering modes and…
+- [Corporate Reputation API](https://apis.io/apis/meaningcloud/corporate-reputation-api/) — Semantically tags content for corporate reputation analysis, identifying entities and assigning reputational categories with polarity scores to support…
+- [Summarization API](https://apis.io/apis/meaningcloud/summarization-api/) — Automatically extracts a summary from a document by selecting the most relevant sentences, with configurable sentence count output.
+- [Document Structure API](https://apis.io/apis/meaningcloud/document-structure-api/) — Extracts structural sections from markup documents including title, headings, abstract, and email fields such as from, to, cc, and subject.
 
-## Pricing
+### Published properties
 
-| Plan | Monthly Price | Credits/Month |
-|------|--------------|---------------|
-| Free | $0 | 20,000 |
-| Start-Up | $99 | 120,000 |
-| Professional | $399 | 700,000 |
-| Business | $999 | 4,200,000 |
-| Enterprise | Custom | Custom |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-One credit = 500 words processed. Paid plans support flexible overage billed at end of period.
+#### JSON-LD (1)
 
-## Links
+Linked-data contexts for the provider's vocabulary.
 
-- Website: https://www.meaningcloud.com
-- Documentation: https://www.meaningcloud.com/developer/apis
-- Pricing: https://www.meaningcloud.com/products/pricing
-- GitHub: https://github.com/MeaningCloud
-- LinkedIn: https://www.linkedin.com/company/meaningcloud
-- X: https://x.com/meaningcloud
+- [Apis Context](https://apis.io/jsonld/meaningcloud/apis/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/meaningcloud/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/meaningcloud/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/meaningcloud/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.meaningcloud.com)
+- [Documentation](https://www.meaningcloud.com/developer/apis)
+- [Pricing](https://www.meaningcloud.com/products/pricing)
+- [Blog](https://www.meaningcloud.com/blog)
+- [Status](https://www.meaningcloud.com/developer/support)
+
+## API Evangelist rating
+
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 6.0 |
+| Access clarity | 13.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/meaningcloud/](https://apis.io/providers/meaningcloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MeaningCloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/meaningcloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
